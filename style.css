@@ -15,12 +15,10 @@
     justify-content: space-between;
     align-items: center;
 }
-.logo a{
-    margin-left: 10px;
-    color: white;
-    font-weight: 300;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
+.logo img{
+    width: 70px;
+    height: 40px;
+    margin-left: 20px;
 }
 .navdiv li{
     list-style: none;
@@ -62,12 +60,13 @@ body{
 .glow-btn{
     text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
-  background: rgb(14, 85, 37);
+  background: #014e08;
   padding: 15px 30px;
   border-radius: 10px;
   font-weight: normal;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+  margin-top: 10px;
 }
 .glow-btn:hover{
     color: rgb(255, 255, 255);
@@ -148,7 +147,9 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin-top: -110px;
+    margin-top: -50px;
+    flex-direction: column;
+    gap: 150px;
 }
 .icon-box{
     width: 100px;
@@ -158,6 +159,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -100px;
+    
+
 }
 .icon-box p{
     font-family: Arial, Helvetica, sans-serif;
@@ -168,4 +172,46 @@ body{
 .icon-box img{
     width: 50px;
     height: 50px;
+}
+.icon-container i{
+    font-size: 50px;
+    color: #1C2529;
+    margin: 20px;
+}
+.icon-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: -45px;
+}
+#projects{
+    background-color: #A1D1B1;
+    color: #1C2529;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -50px;
+}
+#projects h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 50px;
+    font-size: 50px;
+    align-items: start;
+    margin-top: 70px;
+}
+#projects p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.project-container{
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin-top: -50px;
 }
